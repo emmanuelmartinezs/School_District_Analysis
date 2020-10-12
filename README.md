@@ -1,5 +1,5 @@
 # School District Analysis
-School District Analysis using `**Pandas**` &amp; `Python`
+School District Analysis using `Pandas` &amp; `Python`
 
 ## Overview of Project
 Here is the list of deliverables for the analysis of the school district: 
