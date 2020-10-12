@@ -2,13 +2,18 @@
 School District Analysis using Pandas &amp; Python
 
 ## Overview of Project
-A Colorado Board of Elections employee has given you the following task to complete the election audit of a recent local congressional election.
+Here is the list of deliverables for the analysis of the school district: 
 
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculatae the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
+* A high-level snapshot of the district's key metrics, presented in a table format
+* An overview of the key metrics for each school, presented in a table format
+* Tables presenting each of the following metrics:
+    * Top 5 and bottom 5 performing schools, based on the overall passing rate
+    * The average math score received by students in each grade level at each school
+    * The average reading score received by students in each grade level at each school
+    * School performance based on the budget per student
+    * School performance based on the school size 
+    * School performance based on the type of school
+Before we can begin these tasks, we need to import the datasets into Jupyter Notebook using Python.
 
 ## Resources
 
