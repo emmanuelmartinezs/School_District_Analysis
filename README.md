@@ -17,270 +17,247 @@ Before we can begin these tasks, we need to import the datasets into Jupyter Not
 
 ## Resources
 
-* Data Source: election_results.csv
-* Software: Python 3.9, Visual Studio Code 1.50.0
+* Data Source: `PyCitySchools.ipynb` file and rename it `PyCitySchools_Challenge_testing.ipynb`.
+* Software: Python 3.9, Visual Studio Code 1.50.0, Anaconda 4.8.5, Jupyter Notebook 6.1.4, Pandas
 
-For more information, read the [`Documentation on Python data typess`](https://docs.python.org/3.6/library/stdtypes.html#numeric-types-int-float-complex). 
+For more information, read the [`Documentation on Pandas DataFrame`](https://pandas.pydata.org/pandas-docs/stable/reference/frame.html). 
 
-## Analysis and Challenges
-In this project, our final Python script will need to be able to deliver the following information when the script is run: 
-
-1. Total number of votes cast
-2. A complete list of candidates who received votes
-3. Total number of votes each candidate received
-4. Percentage of votes each candidate won
-5. The winner of the election based on popular vote
-
-#### Our Challenge Data Background
-> After giving you an overview of the election audit tasks, we wants to go over the steps required in detail. Showing you a technique commonly used by programmers to write steps of their code, which is called `pseudocode`. Pseudocode will make the audit easier to present to nontechnical colleagues and stakeholders.
-
-To facilitate the design process, programmers use `pseudocode` to create models or flowcharts for their programs. 
-Pseudocode is like a roadmap of what you think your code will look like or the steps you'll take to complete the task at hand.
-
-Pseudo means **"fake,"** so pseudocode is essentially fake code. Pseudocode is an informal language that has no syntax rules and is not meant to be executed. The point of using pseudocode is to focus on the overall design of the program.
-
-> Here some **Python Arithmetic Operators**, **Data Types** and **Reserve Keys** to remember;
-
-**Python Arithmetic Operators**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Python_Arithmetic_Operators.PNG?raw=true)
-
-**Python Data Types**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Python_Data_Types.PNG?raw=true)
+## Background Analysis and Challenges
+The school board has notified Maria and her supervisor that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. Although the school board does not know the full extent of the academic dishonesty, they want to uphold state-testing standards and have turned to Maria for help. She has asked you to replace the math and reading scores for Thomas High School with NaNs while keeping the rest of the data intact. Once you’ve replaced the math and reading scores, Maria would like you to repeat the school district analysis that you did in this module and write up a report to describe how these changes affected the overall analysis.
 
 
-**Python Reserve Keys**
+#### Determine Data Types Challenge Data Background
+> You have been tasked with getting key metrics from the datasets. This will involve performing calculations to get sums, averages, and percentages. Before you perform these calculations, though, you should check if the numbers in these datasets are the correct data type for making those calculations, as this is considered a best practice.
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Python_Reserve_Keys.PNG?raw=true)
+> Here are six common data types that we may encounter in this module and that you may come across in the future:
 
-## Deliverable 1a: Candidate Results
-### Deliverable Requirements:
+**DataTypes & Arithmetic Operators**
 
-1. Total Votes in the election are printed to the terminal.
-2. Each candidate’s total votes and percentage of votes are printed to the terminal.
-3. The winner of the election, winning vote count, and winning percentage of votes are printed to the terminal.
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+
+## Deliverable 1: Replace Ninth-Grade Reading and Math Scores
+**Instructions**: Using the Pandas `loc` method with conditional statements and comparison and logical operators, select the ninth-grade reading and math scores for Thomas High School. Then, use the Pandas NumPy module to change the reading and math scores to NaN.
+
+### Deliverable 1 Requirements:
+
+You will earn a perfect score for Deliverable 1 by completing all requirements below:
+
+* The `loc` method is used to select all the reading and math scores from the ninth grade at Thomas High School. Inside the `loc` method, the following are completed:
+
+    * A comparison operator is used to retrieve all the rows with Thomas High School in the **"school_name"** column of the `student_data_df`.
+    * A comparison operator is used to retrieve all the rows with the ninth grade in the **"grade"** column of the `student_data_df`.
+    * Logical and comparison operators are used to retrieve all the rows with the **"reading_score"** column for Thomas High School ninth graders from the `student_data_df`.
+    * Logical and comparison operators are used to retrieve all the rows with the **"math_score"** column for Thomas High School ninth graders from the `student_data_df`.
+    * The reading and math scores for the ninth graders in **Thomas High school** are replaced with **NaNs**.
  
-### Results with detail analysis:
+### Deliverable 1 Results with detail analysis:
 
-**1. Total Votes in the election are printed to the terminal**
+**1. A comparison operator is used to retrieve all the rows with Thomas High School in the **"school_name"** column of the `student_data_df`.**
 
-> Image with `Python` Code below.
-
-
-**Code and Image**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Total-Votes-in-the-election-are-printed-to-the-terminal.PNG?raw=true)
-
-
-**2. Each candidate’s total votes and percentage of votes are printed to the terminal.**
-
-> Image with `Python` Code below.
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
 
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Each-candidates-total-votes-and-percentage-of-votes-are-printed-to-the-terminal.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
 
 
-**3. The winner of the election, winning vote count, and winning percentage of votes are printed to the terminal.**
+**2. A comparison operator is used to retrieve all the rows with the ninth grade in the **"grade"** column of the `student_data_df`.**
 
-> Image with `Python` Code below.
-
-
-**Code and Image - The winner of the election**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/The-winner-of-the-election.PNG?raw=true)
-
-
-**Code and Image - The winning vote count**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/The-winning-vote-count.PNG?raw=true)
-
-
-**Code and Image - The winning percentage of votes**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/The-winning-percentage-of-votes-are-printed-to-the-terminal.PNG?raw=true)
-
-
-### Deliverable 1b: County Results
-### Deliverable Requirements:
-
-1. Each county and its total vote count are printed to the terminal.
-2. Each county and its percentage of the total votes are printed to the terminal.
-3. The county with the largest number of voters is printed to the terminal.
-
-### Results with detail analysis:
-
-**1. Each county and its total vote count are printed to the terminal.**
-
-> Image with `Python` Code below.
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
 
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Each-county-and-its-total-vote-count-are-printed-to-the-terminal.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
 
+**3. Logical and comparison operators are used to retrieve all the rows with the **"reading_score"** column for Thomas High School ninth graders from the `student_data_df`.**
 
-**2. Each county and its percentage of the total votes are printed to the terminal.**
-
-> Image with `Python` Code below.
-
-
-**Code and Image**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Each-county-and-its-percentage-of-the-total-votes-are-printed-to-the-terminal.PNG?raw=true)
-
-
-**3. The county with the largest number of voters is printed to the terminal.**
-
-> Image with `Python` Code below.
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
 
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/The-county-with-the-largest-number-of-voters-is-printed-to-the-terminal.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
 
-## Deliverable 2: Election Candidate Results Saved to a Text File
-### Candidate Results Deliverable Requirements:
-You will earn a perfect score for Deliverable 2 by completing all requirements below:
+**4. Logical and comparison operators are used to retrieve all the rows with the **"math_score"** column for Thomas High School ninth graders from the `student_data_df`.**
 
-1. Total Votes in the election are saved in the `election_results.txt` file.
-2. Each candidate’s total votes and percentage of votes are saved in the `election_results.txt` file. 
-3. The winner of the election, winning vote count, and winning percentage of votes are saved in the `election_results.txt` file. 
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
+
+
+**Code and Image**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+**5. The reading and math scores for the ninth graders in **Thomas High school** are replaced with **NaNs**.**
+
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
+
+
+**Code and Image**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+
+## Deliverable 2: Repeat the School District Analysis
+**Instructions**: Repeat the school district analysis you did in this module, and recreate the following metrics:
+
+* The district summary 
+* The school summary
+* The top 5 and bottom 5 performing schools, based on the overall passing rate
+* The average math score for each grade level from each school
+* The average reading score for each grade level from each school
+* The scores by school spending per student, by school size, and by school type
+
+### Deliverable 2 Requirements:
+
+You will earn a perfect score for Deliverable 2 by repeating the school district analysis and updating the following required metrics in the `PyCitySchools_Challenge.ipynb` file:
+
+* The district summary DataFrame.
+* The school summary DataFrame.
+* The top 5 performing schools, based on the overall passing rate.
+* The bottom 5 performing schools, based on the overall passing rate.
+* The average math score for each grade level from each school.
+* The average reading score for each grade level from each school.
+* The scores by school spending per student.
+* The scores by school size.
+* The scores by school type.
  
-### Results with detail analysis:
-> Using your knowledge of writing data to a text file, write the winning candidate results and the county election results to the `election_results.txt` file.
+### Deliverable 2 Results with detail analysis:
 
-**1. Total Votes in the election are saved in the `election_results.txt` file.**
+**1. The district summary DataFrame.**
 
-> Image over `election_results.txt` print below.
-
-
-**Code and Image**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Total-Votes-in-the-election-are-saved-in-the-election_results-txt-file.PNG?raw=true)
-
-
-**2. Each candidate’s total votes and percentage of votes are saved in the `election_results.txt` file.**
-
-> Image over `election_results.txt` print below.
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
 
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Each-candidates-total-votes-and-percentage-of-votes-are-saved-in-the-election_results.txt-file.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
 
 
-**3. The winner of the election, winning vote count, and winning percentage of votes are saved in the `election_results.txt` file.**
 
-> Image over `election_results.txt` print below.
+**2. The school summary DataFrame.**
 
-
-**Code and Image - The winner of the election on txt file**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/The-winner-of-the-election-saved-in-the-election_results.txt-file.PNG?raw=true)
-
-**Code and Image - The winning vote count on txt file**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/The-winner-vote-count-saved-in-the-election_results.txt-file.PNG?raw=true)
-
-**Code and Image - The winning percentage of votes on txt file**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/The-winning-percentage-of-votes-saved-in-the-election_results.txt-file.PNG?raw=true)
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
 
 
-## Election County Results Saved to a Text File
-### County Results Deliverable Requirements:
-You will earn a perfect score for Deliverable 2 by completing all requirements below:
+**Code and Image**
 
-1. Each county and its total vote count are saved in the `election_results.txt` file.
-2. Each county and its percentage of the total votes are saved in the `election_results.txt` file.  
-3. The county with the largest number of voters is saved in the `election_results.tx`t` file. 
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+
+
+**3. The top 5 performing schools, based on the overall passing rate.**
+
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
+
+
+**Code and Image**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+
+
+**4. The bottom 5 performing schools, based on the overall passing rate.**
+
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
+
+
+**Code and Image**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+
+
+**5. The average math score for each grade level from each school.**
+
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
+
+
+**Code and Image**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+
+
+**6. The average reading score for each grade level from each school.**
+
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
+
+
+**Code and Image**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+
+
+**7. The scores by school spending per student.**
+
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
+
+
+**Code and Image**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+
+
+**8. The scores by school size.**
+
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
+
+
+**Code and Image**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+
+**9. The scores by school type.**
+
+> Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
+
+
+**Code and Image**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+
+
+
+## Deliverable 3: A Written Report for the School District Analysis
+**Instructions**: For this part of the Challenge, write a report that summarizes your updated analysis and compares it with the results from the module.
+
+The analysis should contain the following:
+
+1. **Overview of the school district analysis:** Explain the purpose of this analysis.
+
+2. **Results:** Using bulleted lists and images of DataFrames as support, address the following questions.
+
+* How is the district summary affected?
+* How is the school summary affected?
+* How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+* How does replacing the ninth-grade scores affect the following:
+    * Math and reading scores by grade
+    * Scores by school spending
+    * Scores by school size
+    * Scores by school type
+
+3. **Summary:** Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+### Deliverable 3 Requirements:
+**Structure, Organization, and Formatting**
+The written analysis has the following structure, organization, and formatting:
+
+* There is a title, and there are multiple sections.
+* Each section has a heading and subheading.
+* Links to images are working, and code is formatted and displayed correctly.
  
-### Results with detail analysis:
-> Using your knowledge of writing data to a text file, write the winning candidate results and the county election results to the `election_results.txt` file.
+**Analysis**
+The written analysis has the following:
 
-**1. Each county and its total vote count are saved in the `election_results.txt` file.**
-
-> Image over `election_results.txt` print below.
-
-
-**Code and Image**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Each-county-and-its-total-vote-count-are-saved-in-the-election_results.txt-file.PNG?raw=true)
-
-
-**2. Each county and its percentage of the total votes are saved in the `election_results.txt` file.**
-
-> Image over `election_results.txt` print below.
-
-
-**Code and Image**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/Each-county-and-its-percentage-of-the-total-votes-are-saved-in-the-election_results.txt-file.PNG?raw=true)
-
-
-**3. The county with the largest number of voters is saved in the `election_results.tx` file.**
-
-> Image over `election_results.txt` print below.
-
-
-**Code and Image**
-
-![name-of-you-image](https://github.com/emmanuelmartinezs/Election_Analysis/blob/main/Resources/The-county-with-the-largest-number-of-voters-is-saved-in-the-election_results.txt-file.PNG?raw=true)
-
-
-## Deliverable 3: Analysis of the Election Audit
-### 1) Overview of Election Audit:
-> Explain the purpose of this election audit analysis:
-
-A Colorado Board of Elections employee has given you the following task to complete the election audit of a recent local congressional election.
-
-* Calculate the total number of votes cast.
-* Get a complete list of candidates who received votes.
-* Calculatae the total number of votes each candidate received.
-* Calculate the percentage of votes each candidate won.
-* Determine the winner of the election based on popular vote.
-
-After giving you an overview of the election audit tasks, we wants to go over the steps required in detail. Showing you a technique commonly used by programmers to write steps of their code, which is called `pseudocode`. Pseudocode will make the audit easier to present to nontechnical colleagues and stakeholders.
-
-In this project, our final Python script will need to be able to deliver the following information when the script is run:
-
-* Total number of votes cast
-* A complete list of candidates who received votes
-* Total number of votes each candidate received
-* Percentage of votes each candidate won
-* The winner of the election based on popular vote
-
-
-### 2) Election-Audit Results:
-> Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
-
-* How many votes were cast in this congressional election?
-
-> - **Total Votes Cast** in this congressional election was **369,711** 
-
-* Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-> ***County Votes:***
-> - **Jefferson** county has `10.5%` total percentage with a total votes of **38,855**
-> - **Denver** county has the `82.8%` total percentage with a total votes of **306,055**
-> - **Arapahoe** county has `6.7%` total percentage with a total votes of **24,801**
-
-* Which county had the largest number of votes?
-> ***County with Largest Number of Votes:***
-> - **Denver** county has the largest number total of **306,055**
-> - In addition, **Denver** county has the total votes percentage of `82.8%`  
-> - **Denver** county is the Largest County Turnout
-
-* Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-> ***Candidate Percentage of Votes:***
-> - **Charles Casper Stockham** candidate has `23.0%` total percentage with a total votes of **85,213**
-> - **Diana DeGette** candidate has the `73.8` total percentage with a total votes of **272,892**
-> - **Raymon Anthony Doane** candidate has `3.1%` total percentage with a total votes of **11,606**
-
-* Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-> ***Election Results:***
-> - **Diana DeGette** won the election, with a total votes of **272,892**
-> - In addition, **Diana DeGette** has the total percentage votes of `73.8%`  
-> - **Diana DeGette** is the Winner!
+* Overview of the school district analysis:
+    * The purpose of this analysis is well defined.
+* Results:
+    * There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data.
+* Summary:
+    * There is a statement summarizing four major changes to the school district analysis after reading and math scores have been replaced.
