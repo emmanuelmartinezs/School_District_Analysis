@@ -33,7 +33,7 @@ The school board has notified Maria and her supervisor that the students_complet
 
 **DataTypes & Arithmetic Operators**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 ## Deliverable 1: Replace Ninth-Grade Reading and Math Scores
@@ -60,7 +60,7 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 **2. A comparison operator is used to retrieve all the rows with the ninth grade in the **"grade"** column of the `student_data_df`.**
@@ -70,7 +70,7 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 **3. Logical and comparison operators are used to retrieve all the rows with the **"reading_score"** column for Thomas High School ninth graders from the `student_data_df`.**
 
@@ -79,7 +79,7 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 **4. Logical and comparison operators are used to retrieve all the rows with the **"math_score"** column for Thomas High School ninth graders from the `student_data_df`.**
 
@@ -88,7 +88,7 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 **5. The reading and math scores for the ninth graders in **Thomas High school** are replaced with **NaNs**.**
 
@@ -97,7 +97,7 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 ## Deliverable 2: Repeat the School District Analysis
@@ -133,7 +133,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 
@@ -144,7 +144,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 
@@ -155,7 +155,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 
@@ -166,7 +166,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 
@@ -177,7 +177,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 
@@ -188,7 +188,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 
@@ -199,7 +199,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 
@@ -210,7 +210,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 **9. The scores by school type.**
@@ -220,7 +220,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
 
 
