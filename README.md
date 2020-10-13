@@ -31,7 +31,7 @@ The school board has notified Maria and her supervisor that the students_complet
 
 > Here are six common data types that we may encounter in this module and that you may come across in the future:
 
-**DataTypes & Arithmetic Operators**
+**Pandas Name, Data Types & Arithmetic Operators**
 
 ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
 
