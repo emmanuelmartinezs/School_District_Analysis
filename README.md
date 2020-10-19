@@ -234,13 +234,15 @@ The analysis should contain the following:
 2. **Results:** Using bulleted lists and images of DataFrames as support, address the following questions.
 
 * How is the district summary affected?
+> Below the analysis. 
+
 **BEFORE DATA CLEANUP**
 
-    * Average Math Score = **79.0**
-    * Average Reading Score = **81.9**
-    * % Passing Math **75**
-    * % Passing Reading **86** 
-    * % Overall Passing **65**
+- Average Math Score = **79.0**
+- Average Reading Score = **81.9**
+- % Passing Math **75**
+- % Passing Reading **86** 
+- % Overall Passing **65**
 
 **Before Cleanup - PyCitySchools file**
 
@@ -248,11 +250,11 @@ The analysis should contain the following:
 
 **AFTER DATA CLEANUP**
 
-    * Average Math Score = **78.9**
-    * Average Reading Score = **81.9**
-    * % Passing Math **74.8**
-    * % Passing Reading **85.7** 
-    * % Overall Passing **64.9**
+- Average Math Score = **78.9**
+- Average Reading Score = **81.9**
+- % Passing Math **74.8**
+- % Passing Reading **85.7** 
+- % Overall Passing **64.9**
 
 **After Cleanup - PyCitySchools_Challenge file**
 
