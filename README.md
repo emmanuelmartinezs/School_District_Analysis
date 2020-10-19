@@ -263,7 +263,29 @@ The analysis should contain the following:
 **OBSERVATION:** Slight change in Math Score, including % Passing district averages, Comparing the two dataframes above, the average show the difference when the 9th grade student Math and Reading scores from Thomas High Schools were excluded from the District Summary.
 
 
-* How is the school summary affected?
+### How is the school summary affected?
+
+**BEFORE DATA CLEANUP**
+
+- Thomas High School's % Overall Passing was **91**, placing second
+
+
+**Before Cleanup - PyCitySchools file**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/ths%202nd.PNG?raw=true)
+
+**AFTER DATA CLEANUP**
+
+- Thomas High School's % Overall Passing was **65**, placing eight
+
+
+**After Cleanup - PyCitySchools_Challenge file**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/ths%208th.PNG?raw=true)
+
+**OBSERVATION:** Overall order change due to Thomas High School cleanup, 
+
+
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 * How does replacing the ninth-grade scores affect the following:
     * Math and reading scores by grade
