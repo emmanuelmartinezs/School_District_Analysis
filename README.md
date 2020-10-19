@@ -322,6 +322,10 @@ The analysis should contain the following:
         - Removing Students from Thomas High School 9th Grade reduces the "% Passing Math", "% Passing Reading" and "% Overall Passing" scores for spending bucket "$630-644"
         - Thomas High School is allocated on Spending Bin "$630-644" (image below)
 
+     **School Size"**
+
+    ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Spending%20Size.PNG?raw=true)
+
      **THS Spending Bin "$630-644"**
 
     ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/ths%20bin.PNG?raw=true)
