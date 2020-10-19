@@ -234,6 +234,33 @@ The analysis should contain the following:
 2. **Results:** Using bulleted lists and images of DataFrames as support, address the following questions.
 
 * How is the district summary affected?
+**BEFORE DATA CLEANUP**
+
+* Average Math Score = **79.0**
+* Average Reading Score = **81.9**
+* % Passing Math **75**
+* % Passing Reading **86** 
+* % Overall Passing **65**
+
+**Before Cleanup - PyCitySchools file**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/District_Summary%E2%80%93All_High_Schools.PNG?raw=true)
+
+**AFTER DATA CLEANUP**
+
+* Average Math Score = **78.9**
+* Average Reading Score = **81.9**
+* % Passing Math **74.8**
+* % Passing Reading **85.7** 
+* % Overall Passing **64.9**
+
+**After Cleanup - PyCitySchools_Challenge file**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/District_Summary%E2%80%93Without_Thomas_High_School.PNG?raw=true)
+
+**OBSERVATION:** Slight change in Math Score, including % Passing district averages, Comparing the two dataframes above, the average show the difference when the 9th grade student Math and Reading scores from Thomas High Schools were excluded from the District Summary.
+
+
 * How is the school summary affected?
 * How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 * How does replacing the ninth-grade scores affect the following:
