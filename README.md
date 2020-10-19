@@ -326,6 +326,9 @@ The analysis should contain the following:
 
     ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/ths%20s%20bin.PNG?raw=true)
 
+    ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/ths%20s%20bf%20bin.PNG?raw=true)
+
+
     * Scores by school type
         - Math and Reading Scores from Thomas High School 9th Grade set to "nan" and equivalent to 0.
         - Math and Reading Scores from Thomas High School 9th Grade means all of them failed (set to fail for analysis).
