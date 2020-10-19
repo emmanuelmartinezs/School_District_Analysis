@@ -301,20 +301,3 @@ The analysis should contain the following:
 
 3. **Summary:** Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
-### Deliverable 3 Requirements:
-**Structure, Organization, and Formatting**
-The written analysis has the following structure, organization, and formatting:
-
-* There is a title, and there are multiple sections.
-* Each section has a heading and subheading.
-* Links to images are working, and code is formatted and displayed correctly.
- 
-**Analysis**
-The written analysis has the following:
-
-* Overview of the school district analysis:
-    * The purpose of this analysis is well defined.
-* Results:
-    * There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data.
-* Summary:
-    * There is a statement summarizing four major changes to the school district analysis after reading and math scores have been replaced.
