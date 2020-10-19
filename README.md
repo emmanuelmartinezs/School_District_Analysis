@@ -60,7 +60,7 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/1.1.PNG?raw=true)
 
 
 **2. A comparison operator is used to retrieve all the rows with the ninth grade in the **"grade"** column of the `student_data_df`.**
@@ -70,7 +70,7 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/1.2.PNG?raw=true)
 
 **3. Logical and comparison operators are used to retrieve all the rows with the **"reading_score"** column for Thomas High School ninth graders from the `student_data_df`.**
 
@@ -79,7 +79,7 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/1.3.PNG?raw=true)
 
 **4. Logical and comparison operators are used to retrieve all the rows with the **"math_score"** column for Thomas High School ninth graders from the `student_data_df`.**
 
@@ -88,16 +88,25 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/1.4.PNG?raw=true)
 
 **5. The reading and math scores for the ninth graders in **Thomas High school** are replaced with **NaNs**.**
 
 > Image with `Python`, `Jupyter Notebook` and `Pandas` Code below.
 
 
-**Code and Image**
+**Code and Image for Reading**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/1.5.1.PNG?raw=true)
+
+**Code and Image for Reading**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/1.5.2.PNG?raw=true)
+
+**ALL CODE - Deliverable 1**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/1.All.PNG?raw=true)
+
 
 
 ## Deliverable 2: Repeat the School District Analysis
