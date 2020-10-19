@@ -142,7 +142,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/2.1.PNG?raw=true)
 
 
 
@@ -153,7 +153,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/2.2.PNG?raw=true)
 
 
 
@@ -164,7 +164,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/2.3.PNG?raw=true)
 
 
 
@@ -175,7 +175,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/2.4.PNG?raw=true)
 
 
 
@@ -186,7 +186,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/2.5.PNG?raw=true)
 
 
 
@@ -197,7 +197,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/2.6.PNG?raw=true)
 
 
 
@@ -208,7 +208,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/2.7.PNG?raw=true)
 
 
 
@@ -219,7 +219,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/2.8.PNG?raw=true)
 
 
 **9. The scores by school type.**
@@ -229,7 +229,7 @@ You will earn a perfect score for Deliverable 2 by repeating the school district
 
 **Code and Image**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Six_common_data_types.PNG?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/2.9.PNG?raw=true)
 
 
 
