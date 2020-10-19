@@ -338,11 +338,16 @@ The analysis should contain the following:
 
 
     * Scores by school type
-        - Math and Reading Scores from Thomas High School 9th Grade set to "nan" and equivalent to 0.
-        - Math and Reading Scores from Thomas High School 9th Grade means all of them failed (set to fail for analysis).
-        - Doing that, the only significantly score affected was minimal in a very small in quantity. 
-        - Student count() Before THS Cleanup was: 1635
-        - Student count() After THS Cleanup was: 1174
+        - Thomas High School is in the "CHARTER" type
+        - Removing Thomas High School 9th Grade scores reduces the "% Passing Math", "% Passing Reading" and "% Overall Passing", see below.
+    
+    **Before Cleanup - THS count()**
+
+    ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Charter.PNG?raw=true)
+
+    **After Cleanup - THS count()**
+
+    ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/After%20Charter.PNG?
 
 3. **Summary:** Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
