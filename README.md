@@ -295,9 +295,32 @@ The analysis should contain the following:
 - Analysis Below:
 
     * Math and reading scores by grade
+        - Math and Reading Scores from Thomas High School 9th Grade set to "nan" and equivalent to 0.
+        - Math and Reading Scores from Thomas High School 9th Grade means all of them failed (set to fail for analysis).
+        - Doing that, the only significantly score affected was minimal in a very small in quantity. 
+        - Student count() Before THS Cleanup was: 1635
+        - Student count() After THS Cleanup was: 1174
+
     * Scores by school spending
+        - Math and Reading Scores from Thomas High School 9th Grade set to "nan" and equivalent to 0.
+        - Math and Reading Scores from Thomas High School 9th Grade means all of them failed (set to fail for analysis).
+        - Doing that, the only significantly score affected was minimal in a very small in quantity. 
+        - Student count() Before THS Cleanup was: 1635
+        - Student count() After THS Cleanup was: 1174
+
     * Scores by school size
+        - Math and Reading Scores from Thomas High School 9th Grade set to "nan" and equivalent to 0.
+        - Math and Reading Scores from Thomas High School 9th Grade means all of them failed (set to fail for analysis).
+        - Doing that, the only significantly score affected was minimal in a very small in quantity. 
+        - Student count() Before THS Cleanup was: 1635
+        - Student count() After THS Cleanup was: 1174
+
     * Scores by school type
+        - Math and Reading Scores from Thomas High School 9th Grade set to "nan" and equivalent to 0.
+        - Math and Reading Scores from Thomas High School 9th Grade means all of them failed (set to fail for analysis).
+        - Doing that, the only significantly score affected was minimal in a very small in quantity. 
+        - Student count() Before THS Cleanup was: 1635
+        - Student count() After THS Cleanup was: 1174
 
 3. **Summary:** Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
