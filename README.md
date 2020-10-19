@@ -347,7 +347,7 @@ The analysis should contain the following:
 
     **After Cleanup - THS count()**
 
-    ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/After%20Charter.PNG?
+    ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/After%20Charter.PNG?raw=true)
 
 3. **Summary:** Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 
