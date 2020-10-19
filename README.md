@@ -233,7 +233,7 @@ The analysis should contain the following:
 
 2. **Results:** Using bulleted lists and images of DataFrames as support, address the following questions.
 
-* How is the district summary affected?
+### How is the district summary affected?
 > Below the analysis. 
 
 **BEFORE DATA CLEANUP**
