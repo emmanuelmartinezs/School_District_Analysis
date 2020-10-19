@@ -302,11 +302,19 @@ The analysis should contain the following:
         - Student count() After THS Cleanup was: 1174
 
     * Scores by school spending
-        - Math and Reading Scores from Thomas High School 9th Grade set to "nan" and equivalent to 0.
+        - Thomas HS is in the spending bucket "$630-644"
         - Math and Reading Scores from Thomas High School 9th Grade means all of them failed (set to fail for analysis).
         - Doing that, the only significantly score affected was minimal in a very small in quantity. 
         - Student count() Before THS Cleanup was: 1635
         - Student count() After THS Cleanup was: 1174
+
+**Before Cleanup - THS count()**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Student%20Count%20BF%20Clean.PNG?raw=true)
+
+**After Cleanup - THS count()**
+
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Student%20Count%20AF%20Clean.PNG?raw=true)
 
     * Scores by school size
         - Math and Reading Scores from Thomas High School 9th Grade set to "nan" and equivalent to 0.
