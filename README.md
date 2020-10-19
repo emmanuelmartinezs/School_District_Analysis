@@ -286,8 +286,14 @@ The analysis should contain the following:
 **OBSERVATION:** Overall order change due to Thomas High School cleanup, 
 
 
-* How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-* How does replacing the ninth-grade scores affect the following:
+### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+**OBSERVATION:** Replacing ninth graders’ math and reading scores affect Thomas High School’s performance between the other schools, Relative ranking for Thomas High School changed from 2nd place to 8th (see images above). 
+
+
+### How does replacing the ninth-grade scores affect the following:
+- Analysis Below:
+
     * Math and reading scores by grade
     * Scores by school spending
     * Scores by school size
