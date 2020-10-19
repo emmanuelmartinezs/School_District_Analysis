@@ -308,13 +308,13 @@ The analysis should contain the following:
         - Student count() Before THS Cleanup was: 1635
         - Student count() After THS Cleanup was: 1174
 
-**Before Cleanup - THS count()**
+    **Before Cleanup - THS count()**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Student%20Count%20BF%20Clean.PNG?raw=true)
+    ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Student%20Count%20BF%20Clean.PNG?raw=true)
 
-**After Cleanup - THS count()**
+    **After Cleanup - THS count()**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Student%20Count%20AF%20Clean.PNG?raw=true)
+    ![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/Student%20Count%20AF%20Clean.PNG?raw=true)
 
     * Scores by school size
         - Math and Reading Scores from Thomas High School 9th Grade set to "nan" and equivalent to 0.
