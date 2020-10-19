@@ -105,7 +105,7 @@ You will earn a perfect score for Deliverable 1 by completing all requirements b
 
 **ALL CODE - Deliverable 1**
 
-![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/1.All.png?raw=true)
+![name-of-you-image](https://github.com/emmanuelmartinezs/School_District_Analysis/blob/main/Resources/1.All.PNG?raw=true)
 
 
 
